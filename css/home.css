@@ -1,0 +1,204 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.main
+{
+    height:100%;
+    width:100%;
+    position:absolute;
+    overflow-x:hidden;
+    background-image:url("../img/main.jpg");
+    background-size:100% 100%;
+    background-position:cover;
+    box-sizing:border-box;
+}
+
+.box1
+{
+    height:14%;
+    width:100%;
+    margin-top:1rem;
+    display:flex;
+}
+
+.pic1_box
+{
+
+    height:90%;
+    width:6%;
+    margin-left:3rem;
+    background-image:url('../img/logo.jpg');
+    background-size:100% 100%;
+    border-radius:3rem;
+    border:1px solid #ffffff;
+}
+
+.nav_box
+{
+    height:10%;
+    width:40%;
+    position:absolute;
+    right:2rem;
+    top:1.7rem;
+    font-size:1.4rem;
+    line-height:4rem;
+}
+
+.nav li
+{
+    list-style:none;
+    display:inline;
+    margin:1rem 1rem;
+}
+
+.nav li a
+{
+    padding:10px 15px;
+    text-decoration:none;
+    color:#000000;
+}
+
+.nav li a:hover 
+{
+    background:red;
+    color:#ffffff;
+}
+
+#home
+{
+    background:red;
+    color:#ffffff;   
+}
+
+/***** nav bar is ended over here 
+**** The section will start from here ****/
+
+.head1
+{
+    height:7%;
+    width:28%;
+    margin:3rem auto;
+    background:red;
+    opacity:0.8;
+    color:#ffffff;
+    display:flex;
+    justify-content:center;
+    line-height:2.5rem;
+}
+
+.head1 h2
+{
+    font-size:140%;
+}
+
+.head2
+{
+    height:24%;
+    width:32%;
+    margin:7rem 3rem;
+    padding:0.5rem 1rem;
+    background:red;
+    opacity:0.8;
+    color:#ffffff;
+    display:flex;
+    justify-content:center;
+    line-height:2.5rem;
+}
+
+.head2 h2
+{
+    font-size:140%;
+}
+
+.head3
+{
+    height:35%;
+    width:40%;
+    margin:-11rem 45rem;
+    background:red;
+    border-radius:10rem;
+    padding:1.8rem 2rem;
+    opacity:0.8;
+    color:#ffffff;
+}
+
+/**** main content ended over here 
+****** from here the content will start ***/
+
+.box2
+{
+    height:140%;
+    width:70%;
+    position:absolute;
+    background:#DAAD86;
+    font-size:1.2rem;
+    color:#ffffff;
+    top:42rem;
+    left:15%;
+    padding:0.5rem 0.8rem;
+}
+
+.pic_box2
+{
+    height:40%;
+    width:98%;
+    margin:4rem auto;
+    background-image:url('../img/chin.jpg');
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.box3
+{
+    height:70%;
+    width:90%;
+    position:absolute;
+    top:100rem;
+    left:5rem;
+    background:#DAAD86;
+}
+
+.picbox_box3
+{
+    height:30%;
+    width:10%;
+    background-image:url('../img/abhi1.jpg');
+    background-size:100% 100%;
+    position:absolute;
+    top:2rem;
+    left:2rem;
+}
+
+.contentbox_box3
+{
+    height:90%;
+    width:80%;
+    position:absolute;
+    font-size:1.2rem;
+    color:#ffffff;
+    top:1.2rem;
+    left:12rem;
+}
+
+
+/***** article section ended over here **/
+/*** now on we will be focusing on footer part **/
+
+.footer
+{
+    height:5rem;
+    width:100%;
+    position:absolute;
+    top:134rem;
+    background:#190061;
+    color:#ffffff;
+    display:flex;
+    justify-content:center;
+    font-size:1.5rem;
+    line-height:4.5rem;
+}

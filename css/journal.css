@@ -1,0 +1,213 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body
+{
+    overflow:hidden;
+}
+
+.main
+{
+    height:100%;
+    width:100%;
+    position:absolute;
+    background-size:100% 100%;
+    background-position:cover;
+    box-sizing:border-box;
+    overflow-y:auto;
+}
+
+.box1
+{
+    height:14%;
+    width:100%;
+    margin-top:1rem;
+    display:flex;
+}
+
+.pic1_box
+{
+
+    height:90%;
+    width:6%;
+    margin-left:3rem;
+    background-image:url('../img/logo.jpg');
+    background-size:100% 100%;
+    border-radius:3rem;
+    border:1px solid #ffffff;
+}
+
+.nav_box
+{
+    height:10%;
+    width:40%;
+    position:absolute;
+    right:2rem;
+    top:1.7rem;
+    font-size:1.4rem;
+    line-height:4rem;
+}
+
+.nav li
+{
+    list-style:none;
+    display:inline;
+    margin:1rem 1rem;
+}
+
+.nav li a
+{
+    padding:10px 15px;
+    text-decoration:none;
+    color:#000000;
+}
+
+.nav li a:hover 
+{
+    background:red;
+    color:#ffffff;
+}
+
+#journal
+{
+    background:red;
+    color:#ffffff;   
+}
+
+/***** nav bar is ended over here 
+**** The section will start from here ****/
+.box2
+{
+    height:60%;
+    width:100%;
+    position:relative;
+    background-image:url('../img/nutrition.jpg');
+    background-size:100% 100%;
+}
+
+.box3
+{
+    height:36rem;
+    width:80%;
+    margin:4rem 8rem;
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns:1fr 40rem 1fr;
+    grid-gap:0.2rem;
+    color:#ffffff;
+}
+
+.subbox1_box3
+{
+    grid-row-start:1;
+    grid-row-end:3;
+}
+
+.subbox2_box3
+{
+    grid-column-start:2;
+    grid-column-end:3;
+    display:flex;
+    position:relative;
+    background:#DAAD86;
+}
+
+.pic1_box3
+{
+    height:40%;
+    width:14%;
+    position:absolute;
+    margin:0.7rem 1rem;
+    background-image:url('../img/pic1.jpg');
+    background-size:100% 100%;
+}
+
+.content1_box3
+{
+    height:90%;
+    width:75%;
+    position:absolute;
+    margin:0.5rem 8rem;
+}
+
+.subbox3_box3
+{
+    grid-column-start:2;
+    grid-column-end:3;
+    display:flex;
+    position:relative;
+    background:#DAAD86;
+}
+
+.pic2_box3
+{
+    height:40%;
+    width:14%;
+    position:absolute;
+    margin:0.7rem 1rem;
+    background-image:url('../img/what.jpg');
+    background-size:100% 100%;
+}
+
+.content2_box3
+{
+    height:90%;
+    width:75%;
+    position:absolute;
+    margin:0.5rem 8rem;
+}
+
+.subbox4_box3
+{
+    grid-column-start:2;
+    grid-column-end:3;
+    display:flex;
+    position:relative;
+    background:#DAAD86;
+}
+
+.pic3_box3
+{
+    height:40%;
+    width:14%;
+    position:absolute;
+    margin:0.7rem 1rem;
+    background-image:url('../img/why.jpg');
+    background-size:100% 100%;
+}
+
+.content3_box3
+{
+    height:90%;
+    width:75%;
+    position:absolute;
+    margin:0.5rem 8rem;
+}
+
+.subbox5_box3
+{
+    
+    grid-column-start:3;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:3;
+}
+
+/**** footer will start from here ******/
+.footer
+{
+    height:5rem;
+    width:100%;
+    position:absolute;
+    top:72rem;
+    background:#190061;
+    color:#ffffff;
+    display:flex;
+    justify-content:center;
+    font-size:1.5rem;
+    line-height:4.5rem;
+}

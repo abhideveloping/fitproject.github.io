@@ -78,6 +78,70 @@ body
     color:#ffffff;   
 }
 
+@media screen and (max-width: 600px) and (max-height: 1038px)
+{
+    
+        .box1 {
+            height:14%;
+            width:100%;
+            margin-top:1rem;
+            display:flex;
+                }
+    
+    
+    .pic1_box
+    {
+    
+        height:60%;
+        width:15%;
+        margin-left:3rem;
+        background-image:url('../img/logo.jpg');
+        background-size:100% 100%;
+        border-radius:3rem;
+        border:1px solid #ffffff;
+    }
+    
+    .nav_box
+    {
+        height:10%;
+        width:40%;
+        position:absolute;
+        right:0.5rem;
+        top:1rem;
+        font-size:1.2rem;
+        line-height:3rem;
+    }
+    
+    .nav li
+    {
+        list-style:none;
+        display:block;
+        margin:0.2rem 4rem;
+    }
+    
+    .nav li a
+    {
+        padding:2px 4px;
+        text-decoration:none;
+        color:#000000;
+    }
+    
+    .nav li a:hover 
+    {
+        background:red;
+        color:#ffffff;
+    }
+    
+    #journal
+    {
+        background:red;
+        color:#ffffff;   
+    }
+        }
+
+
+
+
 /***** nav bar is ended over here 
 **** The section will start from here ****/
 .box2
@@ -87,6 +151,20 @@ body
     position:relative;
     background-image:url('../img/nutrition.jpg');
     background-size:100% 100%;
+}
+
+@media screen and (max-width: 600px) and (max-height: 1038px)
+{
+
+.box2
+{
+    height:60%;
+    width:100%;
+    position:relative;
+    background-image:url('../img/nutrition.jpg');
+    background-size:100% 100%;
+}
+
 }
 
 .box3
@@ -197,6 +275,109 @@ body
     grid-row-end:3;
 }
 
+@media screen and (max-width: 600px) and (max-height: 1038px)
+{
+    .box3
+{
+    height:36rem;
+    width:80%;
+    margin:4rem 0rem;
+    display:flex;
+    flex-direction:column;
+    color:#ffffff;
+}
+.subbox1_box3
+{
+    height:40%;
+    width:30%;
+}
+
+.subbox2_box3 
+{
+    height:45%;
+    width:100%;
+    margin-top:1rem;
+    display:flex;
+    position:relative;
+    background:#DAAD86;
+}
+
+.pic1_box3
+{
+    height:40%;
+    width:14%;
+    position:absolute;
+    margin:0.7rem 1rem;
+    background-image:url('../img/pic1.jpg');
+    background-size:100% 100%;
+}
+
+.content1_box3
+{
+    height:90%;
+    width:75%;
+    position:absolute;
+    margin:0.5rem 8rem;
+}
+
+.subbox3_box3 
+{
+    height:45%;
+    width:100%;
+    margin-top:1rem;
+    display:flex;
+    position:relative;
+    background:#DAAD86;
+}
+
+.pic2_box3
+{
+    height:40%;
+    width:14%;
+    position:absolute;
+    margin:0.7rem 1rem;
+    background-image:url('../img/pic1.jpg');
+    background-size:100% 100%;
+}
+
+.content2_box3
+{
+    height:90%;
+    width:75%;
+    position:absolute;
+    margin:0.5rem 8rem;
+}
+
+.subbox4_box3 
+{
+    height:45%;
+    width:100%;
+    margin-top:1rem;
+    display:flex;
+    position:relative;
+    background:#DAAD86;
+}
+
+.pic3_box3
+{
+    height:40%;
+    width:14%;
+    position:absolute;
+    margin:0.7rem 1rem;
+    background-image:url('../img/pic1.jpg');
+    background-size:100% 100%;
+}
+
+.content3_box3
+{
+    height:90%;
+    width:75%;
+    position:absolute;
+    margin:0.5rem 8rem;
+}
+
+}
+
 /**** footer will start from here ******/
 .footer
 {
@@ -210,4 +391,21 @@ body
     justify-content:center;
     font-size:1.5rem;
     line-height:4.5rem;
+}
+
+@media screen and (max-width: 600px) and (max-height: 1038px)
+{
+    .footer
+    {
+        height:5rem;
+        width:100%;
+        position:absolute;
+        top:100rem;
+        background:#190061;
+        color:#ffffff;
+        display:flex;
+        justify-content:center;
+        font-size:1.5rem;
+        line-height:4.5rem;   
+    }
 }
